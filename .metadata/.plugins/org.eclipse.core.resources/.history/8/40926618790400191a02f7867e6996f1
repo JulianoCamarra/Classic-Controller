@@ -1,0 +1,11 @@
+<?php
+
+session_start();
+
+
+$product=$_SESSION['product'];
+$username=$_SESSION['seller'];
+$quantity=$_SESSION['quantity'];
+$price=$_SESSION['price'];
+
+

@@ -1,0 +1,165 @@
+html,body{height:100%
+					width:100%;}
+
+article{float:left;}
+
+
+a:hover{
+		background-color:#126495
+
+}
+
+h4{
+			clear:left;
+			clear:right;
+}
+
+footer{float:bottom;
+
+	clear:left;
+position:relative;
+top:100px;
+
+}
+
+input,button{margin-bottom: 10%;
+			clear:left;
+			clear:right;
+			float:left;
+			margin-right:15px;
+
+}
+
+
+
+
+
+#divheader{background-color:rgb(29,39,54);
+
+
+			width:100%;
+			height:100px;
+	        float:left;
+}
+
+
+#divslogan { float:right;
+			 position: relative;
+			 height:40%;
+			  width:40%;
+
+}
+
+#divlogo {float:left;
+			width:60%;
+}
+
+
+#divsocialmedia {float:right;
+				position:relative:
+}
+
+#divmenu{background-color:rgb(177,177,177);
+		float:left;
+		height:20%;
+		width:100%;
+}
+
+#divmain{display:auto;
+		 margin-left:auto;
+		 margin-right:auto;
+		 float:left;
+		height:100%;
+	width:100%;
+
+}
+#slogan{color:rgb(177, 177, 177);
+			 font-size:20px;
+				font-family:fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+				float: left;
+				position:relative;
+				left:33%;
+				bottom:6px;
+				width:66%;
+				margin-bottom:none;
+			}
+
+
+.asidediv{float:left;
+          width:100%;
+          height:100%;
+          border:1px solid black;
+          position:relative;
+          top:10%;
+          background-color:rgb(29,39,54);
+
+        }
+
+.cartheaderdiv{width:100%;
+								height:20%;}
+
+.link{color:black;
+	 float:left;
+	 font-family:fa5-proxima-nova,Helvetica,Arial,sans-serif;
+	 margin-right:15px;
+	 position:relative;
+	 top:20px;
+	 right:20px;
+	 text-decoration:none;
+	 display:block;
+	padding-left:4px;
+	padding-right:px;
+
+}
+
+.aboutus{float:left;
+		 width:70%;
+		height:100%;
+}
+
+
+.consoleimage{ float:left;
+				position:relative;
+				left:20px;
+				top:30px;
+	margin-right:120px;
+
+}
+
+.container{position:relative;
+			float:left;
+			margin-bottom:5%;
+}
+.productcontainer{ position:relative;
+										float:left;
+									width:20%;
+									height: 50%;
+
+									margin-right:5px;
+								}
+
+.footer{float:left;position:relative;top:40px;
+}
+
+.spacebetweencontainer{float:left;
+						position:relative;
+						width:15%;
+}
+
+.tablediv{float:left;
+					width:80%;
+					height:50%;
+				}
+
+.text-block{
+
+    position: absolute;
+    top: 98%;
+    color: white;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-right: 30px;
+    background-color: gray;
+    margin-bottom: 0;
+  left:5%;
+	}

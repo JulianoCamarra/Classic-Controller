@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+
+<html>
+	<meta charset="UTF-8">
+	
+<head>
+	<title> Classic Controller</title>
+	<link rel="stylesheet" type="text/css" href="css/fontawesome/css/all.css">
+	<link rel="stylesheet" type="text/css" href="myStyleSheet.css">
+		
+	<style>
+		#slogan{color:rgb(177, 177, 177);
+				 font-size:20px;
+				font-family:fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+				 float: left;
+			position:relative;
+			     left:33%;
+				bottom:6px;				
+				width:66%;
+		        margin-bottom:none;	
+				
+		}
+		
+		h1,h2,h3,h4{font-family:fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		}
+			
+		ul{list-style-type:none;
+			
+		}
+			
+		li{float:left;
+		}
+	</style>	
+</head>
+	
+
+<body>
+	
+	<header>
+		<div id="divheader">
+			<div id="divlogo">
+				<img src="images/logo.png" alt="logo" style="padding:10px;position:relative;left:5px;">			
+				<i class="fas fa-gamepad fa-3x" style="position:relative;bottom:4.5px;"></i>
+			</div>
+				
+			<div id="divslogan">
+				<h3 id="slogan">For All Your Classic Gaming Needs!</h3>       	
+			</div>
+			
+		</div>
+		
+	</header>
+	 <nav>
+		<div id="divmenu">
+			<ul>
+				
+				<li><a href="index.html" class="link">Home</a></li>
+				<li><a href="" class="aboutus.html">About Us</a></li>
+				<li> <a href="" class="link">Market</a></li>
+				<li><a href="" class="link">VG Enyclopedia</a></li>
+				<li><a href="" class="link">Register</a></li>
+				<li><a href="" class="login.html">Login</a></li>
+				
+			</ul>
+			<a href="http://facebook.com" target="blank"><i class="fab fa-facebook fa-3x" style="color:black;float:right;position:relative;right:12px;"></i></a>
+			<a href="http://twitter.com" target="blank"><i class="fab fa-twitter-square fa-3x" style="color:black;float:right;position:relative;right:40px;"></i></a>
+			<a href="http://instagram.com" target="blank"><i class="fab fa-instagram fa-3x" style="color:black;float:right;position:relative;right:65px;"></i></a>
+			
+		</div>		
+	</nav>
+	
+	<article>
+		<div id="divmain">
+			<br>
+						
+			<!--<h3 style="text-align:center"> Click to learn about...</h3>-->
+			
+			<ul>
+				<div class="container">
+					<li><a href=""><img src="images/nes.png" alt="nes-console" height="300" width="300" class="consoleimage">
+						<p class="text-block"> NES</p></a></li>
+				</div>
+			
+					
+				
+				<div class="container">
+					<li><a href=""><img src="images/atari.png" alt="atari-2600" height="300" width="300" class="consoleimage">
+						<p class="text-block"> Atari 2600</p></a></li>			
+				</div>
+				
+				<div class="container">
+					<li><a href=""><img src="images/sega.png" alt="sega genesis" height="300" width="300" class="consoleimage">
+						<p class="text-block"> Sega </p></a></li>
+				</div>
+			</ul>
+		</div>
+				
+				<div class="container">
+					
+		</div>
+		
+		<footer>
+	
+			<h4 style="footer"> create by Juliano Camarra 1072207 &copy;</h4>
+		
+		
+				
+<body>
+
+
+
+
+
+<html>

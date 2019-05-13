@@ -1,0 +1,32 @@
+<?php
+
+include "library.php";
+include "SQL_API.php";
+
+session_start();
+
+$conn=DB_Connection();
+
+
+printArray("SUBMIT POST", $_SESSION);
+
+
+
+$product=$_SESSION['product'];
+$username=$_SESSION['seller'];
+$quantity=$_SESSION['quantity'];
+$price=$_SESSION['price'];
+
+$table="product";
+$condition="price='".$price.";";
+
+$statement="SELECT * FROM ".$table." WHERE ".$condition;
+$conn->query($statement);
+
+echo$condition;
+
+$records=getRecordsFromTable($conn, $table, $condition);
+printArray("array", $records);
+
+
+

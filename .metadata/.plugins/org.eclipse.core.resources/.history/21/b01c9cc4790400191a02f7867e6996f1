@@ -1,0 +1,18 @@
+<?php
+
+include "library.php";
+
+session_start();
+
+printArray("SUBMIT POST", $_SESSION);
+
+
+
+$product=$_SESSION['product'];
+$username=$_SESSION['seller'];
+$quantity=$_SESSION['quantity'];
+$price=$_SESSION['price'];
+
+
+
+
